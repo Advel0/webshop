@@ -43,10 +43,10 @@ if ($connect) {
 
 
     $subject = 'New Account at WEBSHOP';
-    $message = "Thank you for registering at WEBSHOP.You may now log in by going to the login page, and using next credantials:
+    $message = "Thank you for registering at WEBSHOP.You may now log in by going to the login page, and using next credantials: 
         Login: ".$email. 
-        "Password: ". $pass.
-        "After the first login you will be asked to set your own password";
+        " Password: ". $pass.
+        " After the first login you will be asked to set your own password";
 
 
     $mail = new PHPMailer(true);
